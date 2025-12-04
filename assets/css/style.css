@@ -516,6 +516,10 @@
   }
 }
 
+.slider-photo {
+  height: 300px;
+}
+
 .slider-photo figure .img {
   width: 20%;
   float: left;
@@ -532,9 +536,11 @@
 }
 
 .slider-photo .img {
-  height: 200px;
+  width: 100%;
+  height: 300px;
+  background-position: top left;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .slider-photo .img:nth-child(1) {
